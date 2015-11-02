@@ -17,7 +17,9 @@ Run makemigrations to make the migration script and then migrate to create the d
 
 ##Endpoint
 ```/login```  ```POST -> username,password```
+
 ```/logout```   ```POST -> username,name,email,password```
+
 ```/register```   ```POST``` ```Header:{'x-csrf-token':token}```
 
 
