@@ -7,7 +7,7 @@ from rest_framework import routers
 
 
 urlpatterns = [
-    url(r'^test', views.test, name='test'),
     url(r'^login', views.login, name='login'),
     url(r'^register', views.register, name='register'),
+    url(r'^logout', views.logout, name='logout'),
 ]
